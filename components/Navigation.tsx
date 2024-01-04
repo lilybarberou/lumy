@@ -11,10 +11,7 @@ export default function Navigation() {
                     <span className="bg-gradient-to-r from-primary to-[#c20dc5] inline-block text-transparent bg-clip-text">bar</span>
                 </p>
             </div>
-            <div className="flex gap-4">
-                <ModalAddBar />
-                <Button>🙋‍♀️ Faire une demande</Button>
-            </div>
+            <ModalAddBar />
         </nav>
     );
 }

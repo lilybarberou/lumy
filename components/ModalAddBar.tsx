@@ -19,7 +19,7 @@ export default function ModalAddBar() {
     return (
         <Dialog open={open} onOpenChange={setOpen}>
             <DialogTrigger>
-                <Button>Ajouter un bar</Button>
+                <Button>🙋‍♀️ Faire une demande</Button>
             </DialogTrigger>
             <DialogContent>
                 <form onSubmit={onSubmit} className="p-4 flex flex-col gap-4">
